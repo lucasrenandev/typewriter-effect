@@ -2,7 +2,7 @@
 "use strict"
 
 // Elements
-const words = ["Hello, My name is Lucas Renan", "I from Brazil, SP", "I study Information Technology"]
+const words = ["Hello, My name is Lucas Renan", "I from Brazil, SP", "I study Information Technology", "Be welcome! ;D"]
 let counter = 0
 let index = 0
 let currentText = ""
@@ -23,7 +23,7 @@ const typed = () => {
     if(counter === words.length) {
         counter = 0
     }
-    setTimeout(typed, 135)
+    setTimeout(typed, 160)
 }
 // Calling the function in the document
 typed()

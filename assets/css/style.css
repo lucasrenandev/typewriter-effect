@@ -33,7 +33,7 @@
 .section h2::after {
     content: "|";
     margin-left: 4px;
-    animation: animate 0.50s infinite ease;
+    animation: animate 0.5s infinite ease;
 }
 
 @keyframes animate {
