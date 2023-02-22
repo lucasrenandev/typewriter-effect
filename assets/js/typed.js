@@ -23,7 +23,7 @@ const typed = () => {
     if(counter === words.length) {
         counter = 0
     }
-    setTimeout(typed, 160)
+    setTimeout(typed, 100)
 }
 // Calling the function in the document
 typed()
